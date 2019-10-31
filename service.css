@@ -1,0 +1,181 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-image: url(images/page.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+  
+    
+}
+h1{
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 75px;
+}
+.deconnecte{
+    float: right;
+    
+    margin: 0%;
+    padding: 0%;
+    margin-right: 10px;
+    text-decoration: none;
+    margin-top: 14px;
+    
+    
+    
+}
+.deconnecte > a{
+    padding: 5px 10px;
+    color: chartreuse;
+    line-height: 50px;
+
+    
+
+}
+nav{
+    width: 100%;
+    background-color: #34495e;
+    line-height: 50px;
+}
+
+.logo{
+    margin-left: 10px;
+    float: left;
+    border-radius:50% ;
+    width: 100px;
+    height: 100px;
+}
+nav > ul{
+    margin: 0%;
+    padding: 0%;
+    margin-right: 80px;
+
+}
+nav > ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+nav > ul > li{
+    float: right;
+    position: relative;
+    margin-bottom: 10px;
+    
+   
+}
+nav li{
+    list-style-type: none;
+   
+}
+nav a {
+    display: inline-block;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #3498db;
+}
+nav > ul > li > a{
+    padding: 20px 30px;
+    color: #FFF;
+   
+    
+    
+
+}
+.page{
+    display: flex;
+    position:absolute;
+    flex-direction: column;
+    justify-content: center;
+	left: 65%;
+	width: 50%;
+	margin-left: -40%;
+    box-shadow: -10px 10px 30px gray;
+    background-color: rgba(1,1,99, 0.8);
+    border-radius: 10px;
+    padding-bottom: 50px;
+
+    
+}
+.page1{
+    display: flex;
+    position:absolute;
+    flex-direction: row;
+    justify-content: space-around;
+	left: 40%;
+	width: 100%;
+	margin-left: -40%;
+    box-shadow: -10px 10px 30px gray;
+    background-color: rgba(1,1,99, 0.8);
+    border-radius: 10px;
+    padding-bottom: 50px;
+    margin-top: 65%;
+    
+}
+form {
+    padding: 25px;
+}
+form div{
+    margin-bottom: 30px;
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+}
+.saisi{
+    width: 50%;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid silver;
+    margin-left: 40px;
+    
+    
+}
+.zonesaisi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+label input{
+    margin: 0 10px 0;
+}
+.enregister{
+    width: 30%;
+    height: 40px;
+    font-size: 25px;
+    border: 3px  gray outset;
+    border-radius: 5px;
+    color: #fff;
+    background-color:  rgba(1,1,99, 0.8);
+   
+    
+}
+.enregister:hover{
+    background-color: silver;
+}
+.enregister:active{
+    background-color: rgb(0, 96, 175);
+    border: 3px #2196F3 inset;
+}
+
+.modifier{
+    width: 25%;
+    height: 40px;
+    font-size: 25px;
+    border: 1px  gray outset;
+    border-radius: 5px;
+    color: #fff;
+    background-color:  rgba(1,1,99, 0.8);
+    margin-top: 10%;
+}
+
